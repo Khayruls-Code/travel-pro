@@ -1,0 +1,55 @@
+.banner{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-size: cover;
+}
+.btns button{
+  border-width: 1px;
+  transition: 0.5s ease;
+}
+.btns button:hover{
+  background: transparent;
+}
+.menuBar{
+  display: none;
+}
+
+/* responsive */
+/* header */
+@media(max-width:900px){
+  .nav {
+    padding: 30px 0;
+  }
+  .nav-items{
+    background: #fff;
+    color: #000;
+    position: fixed;
+    right: 0;
+    top: 80px;
+    width: 300px;
+    padding: 15px 20px;
+    transition: 0.5s ease-in-out;
+    display: block;
+  }
+  .hide{
+    right: -300px;
+  }
+  .nav ul{
+    display: block;
+  }
+  .nav .nav-items li a{
+    color: #000;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    display: block;
+  }
+  .menuBar{
+    display: block;
+  }
+}

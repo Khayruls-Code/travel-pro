@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Merlion statue, Singapore",
+    "desc": "The Merlion was first used in Singapore as the logo for the tourism board. Its name combines 'mar', meaning the sea, and 'lion'. The fish body represents Singapore's origin as a fishing village when it was called Temasek, which means 'sea town' in Javanese. ... The Merlion frequently appears on STB-approved souvenirs.",
+    "price": "520",
+    "discount": "10",
+    "img": "https://i.ibb.co/8bWWnqy/singapore.jpg"
+  },
+  {
+    "title": "Famous tower bridge",
+    "desc": "London Bridge is a bridge in Lake Havasu City, Arizona. It was originally built in the 1830s and formerly spanned the River Thames in London, England. The bridge was purchased by Robert P. McCulloch from the City of London in 1968. ... The 'rededication' of the London Bridge took place on October 10, 1971.",
+    "price": "700",
+    "discount": "5",
+    "img": "https://i.ibb.co/9w4g7JM/london.jpg"
+  },
+  {
+    "title": "Surat thani province, Thailand",
+    "desc": "The area of Surat Thani was already inhabited in prehistoric times by Semang and Malayan tribes. Founded in the 3rd century, the Srivijaya kingdom dominated the Malay Peninsula until the 13th century. The city of Chaiya contains ruins from the Srivijaya period, and it was probably a regional capital of the kingdom. Some Thai historians even argue that it was the kingdom's capital for a time, but this is disputed. Wiang Sa was another important settlement of the time.",
+    "price": "520",
+    "discount": "15",
+    "img": "https://i.ibb.co/tCP8r0d/thailand.jpg"
+  },
+  {
+    "title": "Mustard field, kashmir",
+    "desc": "Lush, yellow fields of mustard bloom gives the valley a gorgeous and surreal appearance. With Poplar trees in the background, beneath a clear blue sky, these yellow fields welcome the spring season with a wide smile.",
+    "price": "350",
+    "discount": "5",
+    "img": "https://i.ibb.co/m6GNjJt/kasmir.jpg"
+  },
+  {
+    "title": "Statue of liberty, New York",
+    "desc": "The Statue of Liberty Enlightening the World was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy. The Statue of Liberty was dedicated on October 28, 1886.  It was designated as a National Monument in 1924.  Employees of the National Park Service have been caring for the colossal copper statue since 1933",
+    "price": "800",
+    "discount": "20",
+    "img": "https://i.ibb.co/HnyM4fF/newyork.jpg"
+  },
+  {
+    "title": "Eiffel tower in paris",
+    "desc": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower",
+    "price": "660",
+    "discount": "10",
+    "img": "https://i.ibb.co/TtsJBvt/paris.jpg"
+  }
+]

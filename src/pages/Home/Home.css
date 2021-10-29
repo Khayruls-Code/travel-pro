@@ -19,12 +19,103 @@
 .menuBar{
   display: none;
 }
+/* packages */
+.booking .info{
+  /* width: 95%; */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  margin: 0 auto;
+  position: relative;
+  margin-top: -35px;
+  border-radius: 10px;
+  padding: 50px 15px 20px;
+  z-index: 10;
+}
+.bookingBtn{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #ea3a48;
+  font-weight: bold;
+  border: 1px solid #ea3a48;
+  transition: 0.5s ease;
+  transition-property: color, background-color;
+}
+.booking:hover .bookingBtn{
+  background-color: #ea3a48;
+  color: #fff;
+}
+.booking .image img{
+  transition: 0.5s ease transform;
+}
+.booking:hover .image img{
+  transform: scale(1.1);
+}
+.discount{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: #ea3a48;
+  z-index: 100;
+  right: 20px;
+  bottom: 0px;
+  text-align: center;
+  line-height: 70px;
+  transition: 0.5s ease background-color;
+}
+.booking:hover .discount{
+  background-color: #0798bc;
+}
+.navigation{
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.userImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* login */
+.login{
+  background-color: #f1f6f9
+}
+.google{
+  background-color: #df4930;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.facebook{
+  background-color: #507cc0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.icon{
+  width: 50px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.facebook .icon{
+  background-color: #2d5694;
+}
+.google .icon{
+  background-color: #c53319;
+}
 
 /* responsive */
 /* header */
-@media(max-width:900px){
+@media(max-width:950px){
   .nav {
-    padding: 30px 0;
+    padding: 10px 0;
+  }
+  .navigation{
+    z-index: 9999;
   }
   .nav-items{
     background: #fff;
@@ -41,6 +132,9 @@
     right: -300px;
   }
   .nav ul{
+    display: block;
+  }
+  .nav .nav-items ul div{
     display: block;
   }
   .nav .nav-items li a{

@@ -7,7 +7,10 @@ module.exports = {
       white: "#ffffff",
       black: "black",
       primaryBg: "#ea3a48",
-      secondary: "#0798bc"
+      secondary: "#0798bc",
+      text_primary: "#002244",
+      text_secondary: "#353b48",
+      text_gray: "#555"
     }
   },
   variants: {

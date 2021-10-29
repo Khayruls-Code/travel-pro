@@ -1,0 +1,6 @@
+.order-form input{
+  background-color: #f1f6f9;
+}
+.order-form input[type='submit']{
+  background-color: #ea3a48;
+}

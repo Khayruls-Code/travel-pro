@@ -11,6 +11,8 @@ import AuthProvider from './pages/AuthProvider/AuthProvider';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import Header from './pages/Home/Header/Header';
 import MyOrders from './pages/MyPackage/MyPackage';
+import ManagePackage from './pages/ManagePackage/ManagePackage';
+import AddNewPackage from './pages/AddNewPackage/AddNewPackage';
 
 function App() {
   return (
@@ -27,11 +29,17 @@ function App() {
           <Route path='/login'>
             <Login />
           </Route>
-          <PrivateRoute exact path='/order/:id'>
+          <PrivateRoute path='/order/:id'>
             <Order />
           </PrivateRoute>
-          <PrivateRoute exact path='/mypackage'>
+          <PrivateRoute path='/mypackage'>
             <MyOrders />
+          </PrivateRoute>
+          <PrivateRoute path='/manage'>
+            <ManagePackage />
+          </PrivateRoute>
+          <PrivateRoute path='/addpackage'>
+            <AddNewPackage />
           </PrivateRoute>
         </Switch>
       </Router>

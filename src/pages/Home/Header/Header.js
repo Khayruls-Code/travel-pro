@@ -32,7 +32,7 @@ const Header = () => {
                       <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/manage">Manage Packages</NavLink>
                     </li>
                     <li>
-                      <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/addpackage">Add A Package</NavLink>
+                      <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/addpackage">Add New Package</NavLink>
                     </li>
                   </div>
                 }

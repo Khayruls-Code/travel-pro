@@ -1,0 +1,40 @@
+.manage{
+  background: #f1f6f9;
+  min-height: 100vh;
+}
+.manage .container{
+  scrollbar-width: 5px;
+  overflow-x: scroll;
+}
+.manage table thead tr td{
+  padding: 8px 15px;
+  font-size: 1.2rem;
+  color:#fff;
+  font-weight: 500;
+}
+.manage table tbody tr{
+  width: 100%;
+  border: 2px solid #fff;
+}
+.manage table tbody tr td{
+  padding: 10px 15px;
+  background: #efefef;
+}
+.manage table thead tr td:last-child{
+  text-align: right;
+}
+.manage table tbody tr td:last-child {
+  text-align: right;
+}
+.delete-icon div{
+  width: fit-content;
+  margin-left: auto;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.delete-icon{
+  font-size: 1.3rem;
+  color:red;
+}

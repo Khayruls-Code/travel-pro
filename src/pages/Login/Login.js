@@ -16,6 +16,7 @@ const Login = () => {
     singInUsingGoogle()
       .then(result => {
         setUser(result.user)
+        console.log(result.user)
         history.push(location_url || '/')
       })
       .catch(error => setError(error))
@@ -29,9 +30,10 @@ const Login = () => {
     singInUsingFacebook()
       .then(result => {
         setUser(result.user)
+        console.log(result.user)
         history.push(location_url || '/')
       })
-      .catch(error => setError(error))
+      .catch(error => console.log(error.message))
       .finally(setIsLoading(false))
   }
 

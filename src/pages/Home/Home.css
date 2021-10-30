@@ -21,14 +21,12 @@
 }
 /* packages */
 .booking .info{
-  /* width: 95%; */
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
   margin: 0 auto;
   position: relative;
   margin-top: -35px;
   border-radius: 10px;
   padding: 50px 15px 20px;
-  z-index: 10;
 }
 .bookingBtn{
   width: 45px;
@@ -107,15 +105,18 @@
 .google .icon{
   background-color: #c53319;
 }
+.navigation{
+  z-index: 9999;
+}
+.nav .nav-items li a.active{
+  color: #81e4fd;
+}
 
 /* responsive */
 /* header */
 @media(max-width:950px){
   .nav {
     padding: 10px 0;
-  }
-  .navigation{
-    z-index: 9999;
   }
   .nav-items{
     background: #fff;
@@ -127,6 +128,7 @@
     padding: 15px 20px;
     transition: 0.5s ease-in-out;
     display: block;
+    z-index: 1000;
   }
   .hide{
     right: -300px;

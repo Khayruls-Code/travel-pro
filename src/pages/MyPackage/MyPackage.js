@@ -9,7 +9,7 @@ const MyOrders = () => {
   const { user } = useAuht()
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://travel-pro-agency.herokuapp.com/users")
       .then(res => res.json())
       .then(data => setOrders(data))
   }, [])
@@ -29,7 +29,7 @@ const MyOrders = () => {
   const handleDelete = (id) => {
     const makeSure = window.confirm("Are you sure to want to delete this package ?")
     if (makeSure) {
-      fetch(`http://localhost:5000/users/${id}`, {
+      fetch(`https://travel-pro-agency.herokuapp.com/users/${id}`, {
         method: "DELETE"
       })
         .then(res => res.json())

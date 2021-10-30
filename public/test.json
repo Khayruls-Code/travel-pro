@@ -1,44 +1,26 @@
 [
   {
-    "title": "Merlion statue, Singapore",
-    "desc": "The Merlion was first used in Singapore as the logo for the tourism board. Its name combines 'mar', meaning the sea, and 'lion'. The fish body represents Singapore's origin as a fishing village when it was called Temasek, which means 'sea town' in Javanese. ... The Merlion frequently appears on STB-approved souvenirs.",
-    "price": "520",
-    "discount": "10",
-    "img": "https://i.ibb.co/8bWWnqy/singapore.jpg"
+    "name": "Abraham Ahmed",
+    "email": "abraham@gmail.com",
+    "review": "I love the way you guys are always very helpful and accomodating. Your service is excellent and I am more than happy to use your organisation for all future holidays.",
+    "img": "https://i.ibb.co/RGF11CC/review1.jpg"
   },
   {
-    "title": "Famous tower bridge",
-    "desc": "London Bridge is a bridge in Lake Havasu City, Arizona. It was originally built in the 1830s and formerly spanned the River Thames in London, England. The bridge was purchased by Robert P. McCulloch from the City of London in 1968. ... The 'rededication' of the London Bridge took place on October 10, 1971.",
-    "price": "700",
-    "discount": "5",
-    "img": "https://i.ibb.co/9w4g7JM/london.jpg"
+    "name": "Sharlin Sefa",
+    "email": "sharlin@hotmail.com",
+    "review": "We were very happy with our holiday booking and our accommodation. We would book with TravelOnline again and definitely recommend their services to others.",
+    "img": "https://i.ibb.co/wgH2tvR/review2.jpg"
   },
   {
-    "title": "Surat thani province, Thailand",
-    "desc": "The area of Surat Thani was already inhabited in prehistoric times by Semang and Malayan tribes. Founded in the 3rd century, the Srivijaya kingdom dominated the Malay Peninsula until the 13th century. The city of Chaiya contains ruins from the Srivijaya period, and it was probably a regional capital of the kingdom. Some Thai historians even argue that it was the kingdom's capital for a time, but this is disputed. Wiang Sa was another important settlement of the time.",
-    "price": "520",
-    "discount": "15",
-    "img": "https://i.ibb.co/tCP8r0d/thailand.jpg"
+    "name": "Kais Kamran",
+    "email": "kamran@gmail.com",
+    "review": "I found Travel Online easy to use, and felt that I could email/ call Lisa if I had any queries regarding our accommodation. Everything went to plan and our proposed itinerary was very clear.",
+    "img": "https://i.ibb.co/VCGjTv2/review3.jpg"
   },
   {
-    "title": "Mustard field, kashmir",
-    "desc": "Lush, yellow fields of mustard bloom gives the valley a gorgeous and surreal appearance. With Poplar trees in the background, beneath a clear blue sky, these yellow fields welcome the spring season with a wide smile.",
-    "price": "350",
-    "discount": "5",
-    "img": "https://i.ibb.co/m6GNjJt/kasmir.jpg"
-  },
-  {
-    "title": "Statue of liberty, New York",
-    "desc": "The Statue of Liberty Enlightening the World was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy. The Statue of Liberty was dedicated on October 28, 1886.  It was designated as a National Monument in 1924.  Employees of the National Park Service have been caring for the colossal copper statue since 1933",
-    "price": "800",
-    "discount": "20",
-    "img": "https://i.ibb.co/HnyM4fF/newyork.jpg"
-  },
-  {
-    "title": "Eiffel tower in paris",
-    "desc": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower",
-    "price": "660",
-    "discount": "10",
-    "img": "https://i.ibb.co/TtsJBvt/paris.jpg"
+    "name": "Nijam Khan",
+    "email": "khan@gmail.com",
+    "review": "Very friendly and easy communication. Prompt response to email questions. Kept me well informed about the trip. Thank you very much. Will definitely book my future trips with travelonline again.",
+    "img": "https://i.ibb.co/FxdZVCG/team-1.jpg"
   }
 ]

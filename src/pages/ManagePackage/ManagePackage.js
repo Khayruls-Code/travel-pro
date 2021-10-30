@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { RiDeleteBin6Line } from 'react-icons/ri'
+import { RiDeleteBin6Line } from 'react-icons/ri';
+import loader from '../../images/loader.gif'
 import './ManagePackage.css'
 
 const ManagePackage = () => {
   const [users, setUsers] = useState([])
   const [status, setStatus] = useState('')
   useEffect(() => {
-    fetch('http://localhost:5000/users')
+    fetch('https://travel-pro-agency.herokuapp.com/users')
       .then(res => res.json())
       .then(data => setUsers(data))
   }, [])
@@ -15,7 +16,7 @@ const ManagePackage = () => {
   const handleDelete = (id) => {
     const makeSure = window.confirm('Are you sure to want to delete this user??')
     if (makeSure) {
-      fetch(`http://localhost:5000/users/${id}`, {
+      fetch(`https://travel-pro-agency.herokuapp.com/users/${id}`, {
         method: "DELETE"
       })
         .then(res => res.json())
@@ -33,7 +34,7 @@ const ManagePackage = () => {
     if (users.length) {
       const matched = users.find(user => user._id === id)
       matched.status = 'approved'
-      fetch(`http://localhost:5000/users/${id}`, {
+      fetch(`https://travel-pro-agency.herokuapp.com/users/${id}`, {
         method: "PUT",
         headers: {
           "content-type": "application/json"
@@ -45,6 +46,10 @@ const ManagePackage = () => {
           setStatus(data.status)
         })
     }
+  }
+
+  if (users.length === 0) {
+    return <div className='h-screen flex items-center justify-center'><img src={loader} alt="" /></div>
   }
 
 

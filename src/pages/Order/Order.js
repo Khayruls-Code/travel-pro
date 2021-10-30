@@ -13,7 +13,7 @@ const Order = () => {
 
   //getting single package
   useEffect(() => {
-    fetch(`http://localhost:5000/packages/${id}`)
+    fetch(`https://travel-pro-agency.herokuapp.com/packages/${id}`)
       .then(res => res.json())
       .then(data => setPackageItem(data))
   }, [])
@@ -22,7 +22,7 @@ const Order = () => {
   const onSubmit = data => {
     data.status = 'pending'
     data.img = packageItem.img
-    fetch('http://localhost:5000/users', {
+    fetch('https://travel-pro-agency.herokuapp.com/users', {
       method: 'POST',
       headers: {
         "content-type": "application/json"

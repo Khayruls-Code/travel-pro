@@ -1,7 +1,9 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
+import Contact from '../Contact/Contact';
 import Header from '../Header/Header';
 import Package from '../Package/Package';
+import Review from '../Review/Review';
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
       <Header />
       <Banner />
       <Package />
+      <Review />
+      <Contact />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Header = () => {
     setIsHide(!isHide)
   }
   return (
-    <div className='navigation fixed top-0 w-full'>
+    <div className='navigation absolute top-0 w-full'>
       <div className="container">
         <div className="navbar flex items-center justify-between">
           <div className="logo">
@@ -21,18 +21,18 @@ const Header = () => {
             <div className={!isHide ? 'nav-items hide' : 'nav-items'}>
               <ul className='flex items-center'>
                 <li>
-                  <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/home">Home</NavLink>
+                  <NavLink onClick={handleHide} className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/home">Home</NavLink>
                 </li>
                 {
                   user.email && <div className='flex'>
                     <li>
-                      <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/mypackage">My Package</NavLink>
+                      <NavLink onClick={handleHide} className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/mypackage">My Package</NavLink>
                     </li>
                     <li>
-                      <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/manage">Manage Packages</NavLink>
+                      <NavLink onClick={handleHide} className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/manage">Manage Packages</NavLink>
                     </li>
                     <li>
-                      <NavLink className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/addpackage">Add New Package</NavLink>
+                      <NavLink onClick={handleHide} className='text-md text-white mx-3 font-medium inline-block px-2 py-6' to="/addpackage">Add New Package</NavLink>
                     </li>
                   </div>
                 }

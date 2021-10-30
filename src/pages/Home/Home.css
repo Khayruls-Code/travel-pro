@@ -112,6 +112,93 @@
   color: #81e4fd;
 }
 
+/* review */
+.review{
+  background: url(../../images/review.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.reviewBox{
+  
+}
+.reviewBox:nth-child(even){
+  flex-direction: row-reverse;
+}
+.reviewImg img{
+  width: 100px;
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+}
+.reviewInfo{
+  background: #01a4a4d2;
+  position: relative;
+}
+
+.reviewInfo::after{
+  content: '';
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-right: 30px solid #01a4a4d2;
+  border-bottom: 20px solid transparent;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.reviewBox:nth-child(even) .reviewInfo::after{
+  right: -30px;
+  left: unset;
+  border-top: 20px solid transparent;
+  border-left: 30px solid #01a4a4d2;
+  border-bottom: 20px solid transparent;
+  border-right: unset;
+}
+
+/* conatact */
+
+.contact form input,
+.contact form textarea{
+  background: #f1f6f9;
+  border: 1px solid #f1f6f9;
+}
+.contact form input:focus,
+.contact form textarea:focus{
+  border: 0.5px solid #ea3a48;
+}
+
+.contact form input[type="submit"]{
+  background: #ea3a48;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  background: #ea3a48;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+.social a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ea3a48;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ea3a48;
+  transition: 0.5s ease;
+  transition-property: color, background-color;
+  font-size: 1.1rem;
+}
+.social a:hover{
+  color: #fff;
+  background: #ea3a48;
+}
+
 /* responsive */
 /* header */
 @media(max-width:950px){

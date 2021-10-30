@@ -13,7 +13,7 @@ const AddNewPackage = () => {
   const addNewPackageFn = (e) => {
     e.preventDefault()
     const newPackage = { title, desc, price, discount, img }
-    fetch('http://localhost:5000/packages', {
+    fetch('https://travel-pro-agency.herokuapp.com/packages', {
       method: "POST",
       headers: {
         "content-type": "application/json"

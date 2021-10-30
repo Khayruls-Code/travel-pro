@@ -7,7 +7,7 @@ const Package = () => {
 
   //gtting package data
   useEffect(() => {
-    fetch('http://localhost:5000/packages')
+    fetch('https://travel-pro-agency.herokuapp.com/packages')
       .then(res => res.json())
       .then(data => setPackages(data))
   }, [])

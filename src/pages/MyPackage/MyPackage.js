@@ -8,6 +8,7 @@ const MyOrders = () => {
   const [matchOrder, setMatchOrder] = useState([])
   const { user } = useAuht()
 
+  //getting user data
   useEffect(() => {
     fetch("https://travel-pro-agency.herokuapp.com/users")
       .then(res => res.json())
@@ -44,7 +45,7 @@ const MyOrders = () => {
   }
 
   return (
-    <div className='mt-28 myPackage'>
+    <div className='mt-28 myPackage mb-16'>
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-8">
           {

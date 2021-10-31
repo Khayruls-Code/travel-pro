@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
+import loader from '../../../images/loader.gif'
 
 const Review = () => {
   const [reviews, setReviews] = useState([])
@@ -8,6 +9,10 @@ const Review = () => {
       .then(res => res.json())
       .then(data => setReviews(data))
   }, [])
+
+  if (reviews.length === 0) {
+    return <div className='h-screen flex items-center justify-center'><img src={loader} alt="" /></div>
+  }
   return (
     <div className='review py-12'>
       <div className="container">

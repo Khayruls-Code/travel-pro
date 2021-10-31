@@ -13,6 +13,7 @@ import Header from './pages/Home/Header/Header';
 import MyOrders from './pages/MyPackage/MyPackage';
 import ManagePackage from './pages/ManagePackage/ManagePackage';
 import AddNewPackage from './pages/AddNewPackage/AddNewPackage';
+import Footer from './pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <AddNewPackage />
           </PrivateRoute>
         </Switch>
+        <Footer />
       </Router>
     </AuthProvider>
   );

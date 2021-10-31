@@ -10,7 +10,8 @@ module.exports = {
       secondary: "#0798bc",
       text_primary: "#002244",
       text_secondary: "#353b48",
-      text_gray: "#555"
+      text_gray: "#555",
+      transparent_white: "rgba(255, 255, 255, 0.5)",
     }
   },
   variants: {

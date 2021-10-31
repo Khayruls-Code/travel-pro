@@ -20,8 +20,8 @@ const Package = () => {
   return (
     <div className='py-12'>
       <div className='container'>
-        <h1 className='text-center text-5xl font-bold text-text_primary'>Popular Places</h1>
-        <p className='text-center text-md font-normal text-text_gray mt-3'>This places would be your todays selection, You will get discount bonus for this packages only</p>
+        <h1 className='text-center text-3xl uppercase font-extrabold text-text_primary'>Popular Places</h1>
+        <p className='text-center text-md font-normal text-text_gray mt-3'>This places would be your todays selection, You will get spacial discount for this packages only</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {
             packages.map(packageItem => <Booking

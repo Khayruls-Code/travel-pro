@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className='contact py-12'>
       <div className="container">
-        <h1 className='text-center text-text_primary font-semibold text-4xl'>Get In Touch</h1>
+        <h1 className='text-center text-text_primary font-extrabold uppercase text-3xl'>Get In Touch</h1>
         <h1 className='text-center text-text_gray'>For any type of information about our agency you can contact with us</h1>
         <div className="row md:flex gap-6 lg:gap-12 mt-12">
           <form className='flex-1 mb-8 md:mb-0'>

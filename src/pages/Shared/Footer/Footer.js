@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="logo">
             <h1 className='text-2xl font-semibold text-white mb-3'>Travel Pro</h1>
-            <p className='text-transparent_white'>Our agency working successfully from 2000.In this long time we improve our service constantly.Now travel pro is a famouse company in Bangladesh.We got best service award from the government of Bangladesh</p>
+            <p className='text-transparent_white'>Our agency working successfully since 2000.In this long time we improve our service constantly.Now travel pro is a famouse company in Bangladesh.We got best service award from the government of Bangladesh</p>
             <button className='text-white bg-secondary py-2 px-6 rounded-sm outline-none border-none mt-4'>Read More</button>
           </div>
           <div>
